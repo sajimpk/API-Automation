@@ -1,6 +1,7 @@
 #API_AUTOMATION
 SITE: https://reqres.in
 
+https://docs.google.com/spreadsheets/d/1ytxA1Nco1WBAAuI761fynNI2QLmNvrRAnJmpi_q7XKM/edit?usp=sharing
 
 #POST
 #GET
