@@ -1,0 +1,487 @@
+{
+	"id": "5840f798-78c3-46ab-8ef2-b0b46400d9ac",
+	"name": "reqres",
+	"timestamp": "2024-04-27T05:46:04.936Z",
+	"collection_id": "34376237-bfc067dd-bffd-4eb7-9caf-1de931d3dc12",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 15,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-04-27T05:45:51.030Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "39b40337-8948-4a5d-984d-0c386822120b",
+			"name": "LIST USERS",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 265,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				265
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7f901dbc-4492-4159-b99d-ea910eabbc66",
+			"name": "SINGLE USER",
+			"url": "https://reqres.in/api/users/3",
+			"time": 87,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				87
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cfc28f4b-0ba8-436d-8ed8-6850ef23639b",
+			"name": "SINGLE USER NOT FOUND",
+			"url": "https://reqres.in//api/users/23",
+			"time": 954,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"404 NOT FOUND": true
+			},
+			"testPassFailCounts": {
+				"404 NOT FOUND": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				954
+			],
+			"allTests": [
+				{
+					"404 NOT FOUND": true
+				}
+			]
+		},
+		{
+			"id": "9a112d78-d52d-492e-9bb0-b697f2f77448",
+			"name": "LIST <RESOURCE>",
+			"url": "https://reqres.in/api/unknown",
+			"time": 89,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				89
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6fdafb29-3792-423c-bcbc-8f6a943df72c",
+			"name": "SINGLE <RESOURCE>",
+			"url": "https://reqres.in/api/unknown/2",
+			"time": 966,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				966
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f8c1b843-93e5-4010-a6f6-0f89c965cde8",
+			"name": "SINGLE <RESOURCE> NOT FOUND",
+			"url": "https://reqres.in/api/unknown/23",
+			"time": 617,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"404 NOT FOUND": true
+			},
+			"testPassFailCounts": {
+				"404 NOT FOUND": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				617
+			],
+			"allTests": [
+				{
+					"404 NOT FOUND": true
+				}
+			]
+		},
+		{
+			"id": "b231f588-1007-4020-9cdd-5d79b9773ac7",
+			"name": "CREATE USER",
+			"url": "https://reqres.in/api/users",
+			"time": 617,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"201 Created ": true
+			},
+			"testPassFailCounts": {
+				"201 Created ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				617
+			],
+			"allTests": [
+				{
+					"201 Created ": true
+				}
+			]
+		},
+		{
+			"id": "af3d35ff-2ad2-46db-9e1d-4f6fdab87136",
+			"name": "UPDATE",
+			"url": "https://reqres.in/api/users/391",
+			"time": 619,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200 Updated": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200 Updated": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				619
+			],
+			"allTests": [
+				{
+					"Status code is 200 Updated": true
+				}
+			]
+		},
+		{
+			"id": "7bafabee-dd6f-4e82-b051-eaeda10a18a8",
+			"name": "UPDATE",
+			"url": "https://reqres.in/api/users/2",
+			"time": 964,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200 Updated": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200 Updated": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				964
+			],
+			"allTests": [
+				{
+					"Status code is 200 Updated": true
+				}
+			]
+		},
+		{
+			"id": "5f319061-2c2a-4e65-9b75-1642c4339b36",
+			"name": "Delete",
+			"url": "https://reqres.in/api/users/2",
+			"time": 604,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Deleted 204": true
+			},
+			"testPassFailCounts": {
+				"Deleted 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				604
+			],
+			"allTests": [
+				{
+					"Deleted 204": true
+				}
+			]
+		},
+		{
+			"id": "13ca00e1-2996-4b77-92e0-be4f69e38607",
+			"name": "Register - Successful",
+			"url": "https://reqres.in/api/register",
+			"time": 612,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				612
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "723b2c96-c6b6-445f-a72b-ae1d6a96f0a7",
+			"name": "Register - Unseccessful",
+			"url": "https://reqres.in/api/register",
+			"time": 610,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				610
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "85495dab-8cda-4a5f-b576-f2f7fd4d4ec6",
+			"name": "LOGIN - SUCCESSFUL",
+			"url": "https://reqres.in/api/login",
+			"time": 618,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				618
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d230661f-5601-4e03-9805-faca4275d1d4",
+			"name": "LOGIN - UNSUCCESSFUL",
+			"url": "https://reqres.in/api/login",
+			"time": 605,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				605
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "bfb8da87-c3a9-43e1-a7c4-cfc718f5bae6",
+			"name": "DELAYED RESPONSE",
+			"url": "https://reqres.in/api/users?delay=3",
+			"time": 3617,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3617
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 11844,
+	"collection": {
+		"requests": [
+			{
+				"id": "39b40337-8948-4a5d-984d-0c386822120b",
+				"method": "GET"
+			},
+			{
+				"id": "7f901dbc-4492-4159-b99d-ea910eabbc66",
+				"method": "GET"
+			},
+			{
+				"id": "cfc28f4b-0ba8-436d-8ed8-6850ef23639b",
+				"method": "GET"
+			},
+			{
+				"id": "9a112d78-d52d-492e-9bb0-b697f2f77448",
+				"method": "GET"
+			},
+			{
+				"id": "6fdafb29-3792-423c-bcbc-8f6a943df72c",
+				"method": "GET"
+			},
+			{
+				"id": "f8c1b843-93e5-4010-a6f6-0f89c965cde8",
+				"method": "GET"
+			},
+			{
+				"id": "b231f588-1007-4020-9cdd-5d79b9773ac7",
+				"method": "POST"
+			},
+			{
+				"id": "af3d35ff-2ad2-46db-9e1d-4f6fdab87136",
+				"method": "PUT"
+			},
+			{
+				"id": "7bafabee-dd6f-4e82-b051-eaeda10a18a8",
+				"method": "PATCH"
+			},
+			{
+				"id": "5f319061-2c2a-4e65-9b75-1642c4339b36",
+				"method": "DELETE"
+			},
+			{
+				"id": "13ca00e1-2996-4b77-92e0-be4f69e38607",
+				"method": "POST"
+			},
+			{
+				"id": "723b2c96-c6b6-445f-a72b-ae1d6a96f0a7",
+				"method": "POST"
+			},
+			{
+				"id": "85495dab-8cda-4a5f-b576-f2f7fd4d4ec6",
+				"method": "POST"
+			},
+			{
+				"id": "d230661f-5601-4e03-9805-faca4275d1d4",
+				"method": "POST"
+			},
+			{
+				"id": "bfb8da87-c3a9-43e1-a7c4-cfc718f5bae6",
+				"method": "GET"
+			}
+		]
+	}
+}
